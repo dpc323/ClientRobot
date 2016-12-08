@@ -1,0 +1,1218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8CEAA81DF7FC8300D6DA7A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */; };
+		1D8CEAE61DF8094400D6DA7A /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAE31DF808F200D6DA7A /* libRCTText.a */; };
+		1D8CEAE71DF8096F00D6DA7A /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEA811DF7FA5000D6DA7A /* libRCTWebSocket.a */; };
+		1D8CEAE81DF8098300D6DA7A /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEA751DF7FA5000D6DA7A /* libRCTNetwork.a */; };
+		1DFE5D461DF6BA50003E0455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D451DF6BA50003E0455 /* main.m */; };
+		1DFE5D491DF6BA50003E0455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D481DF6BA50003E0455 /* AppDelegate.m */; };
+		1DFE5D4C1DF6BA50003E0455 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D4B1DF6BA50003E0455 /* ViewController.m */; };
+		1DFE5D4F1DF6BA50003E0455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE5D4D1DF6BA50003E0455 /* Main.storyboard */; };
+		1DFE5D511DF6BA50003E0455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE5D501DF6BA50003E0455 /* Assets.xcassets */; };
+		1DFE5D541DF6BA50003E0455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE5D521DF6BA50003E0455 /* LaunchScreen.storyboard */; };
+		1DFE5D5F1DF6BA50003E0455 /* ClientRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D5E1DF6BA50003E0455 /* ClientRobotTests.m */; };
+		1DFE5D6A1DF6BA50003E0455 /* ClientRobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D691DF6BA50003E0455 /* ClientRobotUITests.m */; };
+		A2FE3479A1681E89272265E0 /* libPods-ClientRobot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356C022844D7212E7978B82B /* libPods-ClientRobot.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8CEA1C1DF7F9D700D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		1D8CEA1E1DF7F9D700D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		1D8CEA741DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		1D8CEA761DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		1D8CEA7A1DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA3F1DF7FA4F00D6DA7A /* RCTTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 580C376F1AB104AF0015E709;
+			remoteInfo = RCTTest;
+		};
+		1D8CEA7C1DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA3F1DF7FA4F00D6DA7A /* RCTTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A286E1D9B047700D4039D;
+			remoteInfo = "RCTTest-tvOS";
+		};
+		1D8CEA801DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA271DF7FA4F00D6DA7A /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		1D8CEA821DF7FA5000D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEA271DF7FA4F00D6DA7A /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+		1D8CEAE21DF808F200D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		1D8CEAE41DF808F200D6DA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
+			remoteInfo = "RCTText-tvOS";
+		};
+		1DFE5D5B1DF6BA50003E0455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFE5D391DF6BA50003E0455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFE5D401DF6BA50003E0455;
+			remoteInfo = ClientRobot;
+		};
+		1DFE5D661DF6BA50003E0455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFE5D391DF6BA50003E0455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DFE5D401DF6BA50003E0455;
+			remoteInfo = ClientRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		1D8CE9F21DF7F9CB00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
+		1D8CE9F51DF7F9CB00D6DA7A /* parseErrorStack-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "parseErrorStack-test.js"; sourceTree = "<group>"; };
+		1D8CE9F61DF7F9CB00D6DA7A /* getDevServer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = getDevServer.js; sourceTree = "<group>"; };
+		1D8CE9F71DF7F9CB00D6DA7A /* openFileInEditor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = openFileInEditor.js; sourceTree = "<group>"; };
+		1D8CE9F81DF7F9CB00D6DA7A /* parseErrorStack.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = parseErrorStack.js; sourceTree = "<group>"; };
+		1D8CE9F91DF7F9CB00D6DA7A /* setupDevtools.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = setupDevtools.js; sourceTree = "<group>"; };
+		1D8CE9FA1DF7F9CB00D6DA7A /* symbolicateStackTrace.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = symbolicateStackTrace.js; sourceTree = "<group>"; };
+		1D8CE9FB1DF7F9CB00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
+		1D8CE9FC1DF7F9CB00D6DA7A /* ExceptionsManager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ExceptionsManager.js; sourceTree = "<group>"; };
+		1D8CE9FD1DF7F9CB00D6DA7A /* InitializeCore.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = InitializeCore.js; sourceTree = "<group>"; };
+		1D8CE9FF1DF7F9CB00D6DA7A /* JSTimers.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSTimers.js; sourceTree = "<group>"; };
+		1D8CEA001DF7F9CB00D6DA7A /* JSTimersExecution.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSTimersExecution.js; sourceTree = "<group>"; };
+		1D8CEA031DF7F9D700D6DA7A /* XMLHttpRequest-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "XMLHttpRequest-test.js"; sourceTree = "<group>"; };
+		1D8CEA041DF7F9D700D6DA7A /* fetch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fetch.js; sourceTree = "<group>"; };
+		1D8CEA051DF7F9D700D6DA7A /* FormData.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FormData.js; sourceTree = "<group>"; };
+		1D8CEA061DF7F9D700D6DA7A /* NetInfo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NetInfo.js; sourceTree = "<group>"; };
+		1D8CEA071DF7F9D700D6DA7A /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTDataRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA081DF7F9D700D6DA7A /* RCTDataRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTDataRequestHandler.m; sourceTree = "<group>"; };
+		1D8CEA091DF7F9D700D6DA7A /* RCTFileRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFileRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA0A1DF7F9D700D6DA7A /* RCTFileRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFileRequestHandler.m; sourceTree = "<group>"; };
+		1D8CEA0B1DF7F9D700D6DA7A /* RCTHTTPRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTHTTPRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA0C1DF7F9D700D6DA7A /* RCTHTTPRequestHandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTHTTPRequestHandler.mm; sourceTree = "<group>"; };
+		1D8CEA0D1DF7F9D700D6DA7A /* RCTNetInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetInfo.h; sourceTree = "<group>"; };
+		1D8CEA0E1DF7F9D700D6DA7A /* RCTNetInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNetInfo.m; sourceTree = "<group>"; };
+		1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RCTNetwork.xcodeproj; sourceTree = "<group>"; };
+		1D8CEA121DF7F9D700D6DA7A /* RCTNetworking.android.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RCTNetworking.android.js; sourceTree = "<group>"; };
+		1D8CEA131DF7F9D700D6DA7A /* RCTNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetworking.h; sourceTree = "<group>"; };
+		1D8CEA141DF7F9D700D6DA7A /* RCTNetworking.ios.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RCTNetworking.ios.js; sourceTree = "<group>"; };
+		1D8CEA151DF7F9D700D6DA7A /* RCTNetworking.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNetworking.mm; sourceTree = "<group>"; };
+		1D8CEA161DF7F9D700D6DA7A /* RCTNetworkTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetworkTask.h; sourceTree = "<group>"; };
+		1D8CEA171DF7F9D700D6DA7A /* RCTNetworkTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNetworkTask.m; sourceTree = "<group>"; };
+		1D8CEA181DF7F9D700D6DA7A /* XHRInterceptor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = XHRInterceptor.js; sourceTree = "<group>"; };
+		1D8CEA191DF7F9D700D6DA7A /* XMLHttpRequest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = XMLHttpRequest.js; sourceTree = "<group>"; };
+		1D8CEA221DF7FA4F00D6DA7A /* event-target-shim.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "event-target-shim.js"; sourceTree = "<group>"; };
+		1D8CEA241DF7FA4F00D6DA7A /* WebSocket-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "WebSocket-test.js"; sourceTree = "<group>"; };
+		1D8CEA251DF7FA4F00D6DA7A /* RCTSRWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTSRWebSocket.h; sourceTree = "<group>"; };
+		1D8CEA261DF7FA4F00D6DA7A /* RCTSRWebSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTSRWebSocket.m; sourceTree = "<group>"; };
+		1D8CEA271DF7FA4F00D6DA7A /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RCTWebSocket.xcodeproj; sourceTree = "<group>"; };
+		1D8CEA2A1DF7FA4F00D6DA7A /* RCTWebSocketExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWebSocketExecutor.h; sourceTree = "<group>"; };
+		1D8CEA2B1DF7FA4F00D6DA7A /* RCTWebSocketExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWebSocketExecutor.m; sourceTree = "<group>"; };
+		1D8CEA2C1DF7FA4F00D6DA7A /* RCTWebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWebSocketManager.h; sourceTree = "<group>"; };
+		1D8CEA2D1DF7FA4F00D6DA7A /* RCTWebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWebSocketManager.m; sourceTree = "<group>"; };
+		1D8CEA2E1DF7FA4F00D6DA7A /* RCTWebSocketModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWebSocketModule.h; sourceTree = "<group>"; };
+		1D8CEA2F1DF7FA4F00D6DA7A /* RCTWebSocketModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWebSocketModule.m; sourceTree = "<group>"; };
+		1D8CEA301DF7FA4F00D6DA7A /* WebSocket.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WebSocket.js; sourceTree = "<group>"; };
+		1D8CEA311DF7FA4F00D6DA7A /* WebSocketEvent.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WebSocketEvent.js; sourceTree = "<group>"; };
+		1D8CEA321DF7FA4F00D6DA7A /* WebSocketInterceptor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WebSocketInterceptor.js; sourceTree = "<group>"; };
+		1D8CEA351DF7FA4F00D6DA7A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		1D8CEA361DF7FA4F00D6DA7A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1D8CEA371DF7FA4F00D6DA7A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1D8CEA381DF7FA4F00D6DA7A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestController.m; sourceTree = "<group>"; };
+		1D8CEA391DF7FA4F00D6DA7A /* UIImage+Compare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compare.h"; sourceTree = "<group>"; };
+		1D8CEA3A1DF7FA4F00D6DA7A /* UIImage+Compare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compare.m"; sourceTree = "<group>"; };
+		1D8CEA3B1DF7FA4F00D6DA7A /* UIImage+Diff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Diff.h"; sourceTree = "<group>"; };
+		1D8CEA3C1DF7FA4F00D6DA7A /* UIImage+Diff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
+		1D8CEA3D1DF7FA4F00D6DA7A /* RCTSnapshotManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTSnapshotManager.h; sourceTree = "<group>"; };
+		1D8CEA3E1DF7FA4F00D6DA7A /* RCTSnapshotManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTSnapshotManager.m; sourceTree = "<group>"; };
+		1D8CEA3F1DF7FA4F00D6DA7A /* RCTTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RCTTest.xcodeproj; sourceTree = "<group>"; };
+		1D8CEA421DF7FA4F00D6DA7A /* RCTTestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTestModule.h; sourceTree = "<group>"; };
+		1D8CEA431DF7FA4F00D6DA7A /* RCTTestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTestModule.m; sourceTree = "<group>"; };
+		1D8CEA441DF7FA4F00D6DA7A /* RCTTestRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTTestRunner.h; sourceTree = "<group>"; };
+		1D8CEA451DF7FA4F00D6DA7A /* RCTTestRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTTestRunner.m; sourceTree = "<group>"; };
+		1D8CEA461DF7FA4F00D6DA7A /* SnapshotViewIOS.android.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SnapshotViewIOS.android.js; sourceTree = "<group>"; };
+		1D8CEA471DF7FA4F00D6DA7A /* SnapshotViewIOS.ios.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = SnapshotViewIOS.ios.js; sourceTree = "<group>"; };
+		1D8CEA4A1DF7FA4F00D6DA7A /* XMLHttpRequest-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "XMLHttpRequest-test.js"; sourceTree = "<group>"; };
+		1D8CEA4B1DF7FA4F00D6DA7A /* fetch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fetch.js; sourceTree = "<group>"; };
+		1D8CEA4C1DF7FA4F00D6DA7A /* FormData.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FormData.js; sourceTree = "<group>"; };
+		1D8CEA4D1DF7FA4F00D6DA7A /* NetInfo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NetInfo.js; sourceTree = "<group>"; };
+		1D8CEA4E1DF7FA4F00D6DA7A /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTDataRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA4F1DF7FA4F00D6DA7A /* RCTDataRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTDataRequestHandler.m; sourceTree = "<group>"; };
+		1D8CEA501DF7FA4F00D6DA7A /* RCTFileRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFileRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA511DF7FA4F00D6DA7A /* RCTFileRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFileRequestHandler.m; sourceTree = "<group>"; };
+		1D8CEA521DF7FA4F00D6DA7A /* RCTHTTPRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTHTTPRequestHandler.h; sourceTree = "<group>"; };
+		1D8CEA531DF7FA4F00D6DA7A /* RCTHTTPRequestHandler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTHTTPRequestHandler.mm; sourceTree = "<group>"; };
+		1D8CEA541DF7FA4F00D6DA7A /* RCTNetInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetInfo.h; sourceTree = "<group>"; };
+		1D8CEA551DF7FA4F00D6DA7A /* RCTNetInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNetInfo.m; sourceTree = "<group>"; };
+		1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RCTNetwork.xcodeproj; sourceTree = "<group>"; };
+		1D8CEA591DF7FA4F00D6DA7A /* RCTNetworking.android.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RCTNetworking.android.js; sourceTree = "<group>"; };
+		1D8CEA5A1DF7FA4F00D6DA7A /* RCTNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetworking.h; sourceTree = "<group>"; };
+		1D8CEA5B1DF7FA4F00D6DA7A /* RCTNetworking.ios.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RCTNetworking.ios.js; sourceTree = "<group>"; };
+		1D8CEA5C1DF7FA4F00D6DA7A /* RCTNetworking.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNetworking.mm; sourceTree = "<group>"; };
+		1D8CEA5D1DF7FA4F00D6DA7A /* RCTNetworkTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNetworkTask.h; sourceTree = "<group>"; };
+		1D8CEA5E1DF7FA4F00D6DA7A /* RCTNetworkTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNetworkTask.m; sourceTree = "<group>"; };
+		1D8CEA5F1DF7FA4F00D6DA7A /* XHRInterceptor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = XHRInterceptor.js; sourceTree = "<group>"; };
+		1D8CEA601DF7FA4F00D6DA7A /* XMLHttpRequest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = XMLHttpRequest.js; sourceTree = "<group>"; };
+		1D8CEA631DF7FA4F00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
+		1D8CEA661DF7FA4F00D6DA7A /* parseErrorStack-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "parseErrorStack-test.js"; sourceTree = "<group>"; };
+		1D8CEA671DF7FA4F00D6DA7A /* getDevServer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = getDevServer.js; sourceTree = "<group>"; };
+		1D8CEA681DF7FA4F00D6DA7A /* openFileInEditor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = openFileInEditor.js; sourceTree = "<group>"; };
+		1D8CEA691DF7FA4F00D6DA7A /* parseErrorStack.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = parseErrorStack.js; sourceTree = "<group>"; };
+		1D8CEA6A1DF7FA4F00D6DA7A /* setupDevtools.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = setupDevtools.js; sourceTree = "<group>"; };
+		1D8CEA6B1DF7FA4F00D6DA7A /* symbolicateStackTrace.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = symbolicateStackTrace.js; sourceTree = "<group>"; };
+		1D8CEA6C1DF7FA4F00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
+		1D8CEA6D1DF7FA4F00D6DA7A /* ExceptionsManager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ExceptionsManager.js; sourceTree = "<group>"; };
+		1D8CEA6E1DF7FA4F00D6DA7A /* InitializeCore.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = InitializeCore.js; sourceTree = "<group>"; };
+		1D8CEA701DF7FA4F00D6DA7A /* JSTimers.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSTimers.js; sourceTree = "<group>"; };
+		1D8CEA711DF7FA4F00D6DA7A /* JSTimersExecution.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSTimersExecution.js; sourceTree = "<group>"; };
+		1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		1DFE5D411DF6BA50003E0455 /* ClientRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE5D451DF6BA50003E0455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DFE5D471DF6BA50003E0455 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DFE5D481DF6BA50003E0455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DFE5D4A1DF6BA50003E0455 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DFE5D4B1DF6BA50003E0455 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DFE5D4E1DF6BA50003E0455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DFE5D501DF6BA50003E0455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DFE5D531DF6BA50003E0455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DFE5D551DF6BA50003E0455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFE5D5A1DF6BA50003E0455 /* ClientRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE5D5E1DF6BA50003E0455 /* ClientRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientRobotTests.m; sourceTree = "<group>"; };
+		1DFE5D601DF6BA50003E0455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFE5D651DF6BA50003E0455 /* ClientRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE5D691DF6BA50003E0455 /* ClientRobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientRobotUITests.m; sourceTree = "<group>"; };
+		1DFE5D6B1DF6BA50003E0455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356C022844D7212E7978B82B /* libPods-ClientRobot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClientRobot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967E1D4E62083AB0FDD9C72A /* Pods-ClientRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientRobot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot.release.xcconfig"; sourceTree = "<group>"; };
+		BA1D3BF93576CAAEA461C4CA /* Pods-ClientRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientRobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFE5D3E1DF6BA50003E0455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8CEAE81DF8098300D6DA7A /* libRCTNetwork.a in Frameworks */,
+				1D8CEAE71DF8096F00D6DA7A /* libRCTWebSocket.a in Frameworks */,
+				1D8CEAE61DF8094400D6DA7A /* libRCTText.a in Frameworks */,
+				1D8CEAA81DF7FC8300D6DA7A /* libReact.a in Frameworks */,
+				A2FE3479A1681E89272265E0 /* libPods-ClientRobot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D571DF6BA50003E0455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D621DF6BA50003E0455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8CE9F01DF7F9CB00D6DA7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CE9F11DF7F9CB00D6DA7A /* __mocks__ */,
+				1D8CE9F31DF7F9CB00D6DA7A /* Devtools */,
+				1D8CE9FB1DF7F9CB00D6DA7A /* ErrorUtils.js */,
+				1D8CE9FC1DF7F9CB00D6DA7A /* ExceptionsManager.js */,
+				1D8CE9FD1DF7F9CB00D6DA7A /* InitializeCore.js */,
+				1D8CE9FE1DF7F9CB00D6DA7A /* Timers */,
+			);
+			name = Core;
+			path = "../node_modules/react-native/Libraries/Core";
+			sourceTree = "<group>";
+		};
+		1D8CE9F11DF7F9CB00D6DA7A /* __mocks__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CE9F21DF7F9CB00D6DA7A /* ErrorUtils.js */,
+			);
+			path = __mocks__;
+			sourceTree = "<group>";
+		};
+		1D8CE9F31DF7F9CB00D6DA7A /* Devtools */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CE9F41DF7F9CB00D6DA7A /* __tests__ */,
+				1D8CE9F61DF7F9CB00D6DA7A /* getDevServer.js */,
+				1D8CE9F71DF7F9CB00D6DA7A /* openFileInEditor.js */,
+				1D8CE9F81DF7F9CB00D6DA7A /* parseErrorStack.js */,
+				1D8CE9F91DF7F9CB00D6DA7A /* setupDevtools.js */,
+				1D8CE9FA1DF7F9CB00D6DA7A /* symbolicateStackTrace.js */,
+			);
+			path = Devtools;
+			sourceTree = "<group>";
+		};
+		1D8CE9F41DF7F9CB00D6DA7A /* __tests__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CE9F51DF7F9CB00D6DA7A /* parseErrorStack-test.js */,
+			);
+			path = __tests__;
+			sourceTree = "<group>";
+		};
+		1D8CE9FE1DF7F9CB00D6DA7A /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CE9FF1DF7F9CB00D6DA7A /* JSTimers.js */,
+				1D8CEA001DF7F9CB00D6DA7A /* JSTimersExecution.js */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		1D8CEA011DF7F9D700D6DA7A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA021DF7F9D700D6DA7A /* __tests__ */,
+				1D8CEA041DF7F9D700D6DA7A /* fetch.js */,
+				1D8CEA051DF7F9D700D6DA7A /* FormData.js */,
+				1D8CEA061DF7F9D700D6DA7A /* NetInfo.js */,
+				1D8CEA071DF7F9D700D6DA7A /* RCTDataRequestHandler.h */,
+				1D8CEA081DF7F9D700D6DA7A /* RCTDataRequestHandler.m */,
+				1D8CEA091DF7F9D700D6DA7A /* RCTFileRequestHandler.h */,
+				1D8CEA0A1DF7F9D700D6DA7A /* RCTFileRequestHandler.m */,
+				1D8CEA0B1DF7F9D700D6DA7A /* RCTHTTPRequestHandler.h */,
+				1D8CEA0C1DF7F9D700D6DA7A /* RCTHTTPRequestHandler.mm */,
+				1D8CEA0D1DF7F9D700D6DA7A /* RCTNetInfo.h */,
+				1D8CEA0E1DF7F9D700D6DA7A /* RCTNetInfo.m */,
+				1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */,
+				1D8CEA121DF7F9D700D6DA7A /* RCTNetworking.android.js */,
+				1D8CEA131DF7F9D700D6DA7A /* RCTNetworking.h */,
+				1D8CEA141DF7F9D700D6DA7A /* RCTNetworking.ios.js */,
+				1D8CEA151DF7F9D700D6DA7A /* RCTNetworking.mm */,
+				1D8CEA161DF7F9D700D6DA7A /* RCTNetworkTask.h */,
+				1D8CEA171DF7F9D700D6DA7A /* RCTNetworkTask.m */,
+				1D8CEA181DF7F9D700D6DA7A /* XHRInterceptor.js */,
+				1D8CEA191DF7F9D700D6DA7A /* XMLHttpRequest.js */,
+			);
+			name = Network;
+			path = "../node_modules/react-native/Libraries/Network";
+			sourceTree = "<group>";
+		};
+		1D8CEA021DF7F9D700D6DA7A /* __tests__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA031DF7F9D700D6DA7A /* XMLHttpRequest-test.js */,
+			);
+			path = __tests__;
+			sourceTree = "<group>";
+		};
+		1D8CEA101DF7F9D700D6DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA1D1DF7F9D700D6DA7A /* libRCTNetwork.a */,
+				1D8CEA1F1DF7F9D700D6DA7A /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8CEA201DF7FA4F00D6DA7A /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA211DF7FA4F00D6DA7A /* __mocks__ */,
+				1D8CEA231DF7FA4F00D6DA7A /* __tests__ */,
+				1D8CEA251DF7FA4F00D6DA7A /* RCTSRWebSocket.h */,
+				1D8CEA261DF7FA4F00D6DA7A /* RCTSRWebSocket.m */,
+				1D8CEA271DF7FA4F00D6DA7A /* RCTWebSocket.xcodeproj */,
+				1D8CEA2A1DF7FA4F00D6DA7A /* RCTWebSocketExecutor.h */,
+				1D8CEA2B1DF7FA4F00D6DA7A /* RCTWebSocketExecutor.m */,
+				1D8CEA2C1DF7FA4F00D6DA7A /* RCTWebSocketManager.h */,
+				1D8CEA2D1DF7FA4F00D6DA7A /* RCTWebSocketManager.m */,
+				1D8CEA2E1DF7FA4F00D6DA7A /* RCTWebSocketModule.h */,
+				1D8CEA2F1DF7FA4F00D6DA7A /* RCTWebSocketModule.m */,
+				1D8CEA301DF7FA4F00D6DA7A /* WebSocket.js */,
+				1D8CEA311DF7FA4F00D6DA7A /* WebSocketEvent.js */,
+				1D8CEA321DF7FA4F00D6DA7A /* WebSocketInterceptor.js */,
+			);
+			name = WebSocket;
+			path = "../node_modules/react-native/Libraries/WebSocket";
+			sourceTree = "<group>";
+		};
+		1D8CEA211DF7FA4F00D6DA7A /* __mocks__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA221DF7FA4F00D6DA7A /* event-target-shim.js */,
+			);
+			path = __mocks__;
+			sourceTree = "<group>";
+		};
+		1D8CEA231DF7FA4F00D6DA7A /* __tests__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA241DF7FA4F00D6DA7A /* WebSocket-test.js */,
+			);
+			path = __tests__;
+			sourceTree = "<group>";
+		};
+		1D8CEA281DF7FA4F00D6DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA811DF7FA5000D6DA7A /* libRCTWebSocket.a */,
+				1D8CEA831DF7FA5000D6DA7A /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8CEA331DF7FA4F00D6DA7A /* RCTTest */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA341DF7FA4F00D6DA7A /* FBSnapshotTestCase */,
+				1D8CEA3D1DF7FA4F00D6DA7A /* RCTSnapshotManager.h */,
+				1D8CEA3E1DF7FA4F00D6DA7A /* RCTSnapshotManager.m */,
+				1D8CEA3F1DF7FA4F00D6DA7A /* RCTTest.xcodeproj */,
+				1D8CEA421DF7FA4F00D6DA7A /* RCTTestModule.h */,
+				1D8CEA431DF7FA4F00D6DA7A /* RCTTestModule.m */,
+				1D8CEA441DF7FA4F00D6DA7A /* RCTTestRunner.h */,
+				1D8CEA451DF7FA4F00D6DA7A /* RCTTestRunner.m */,
+				1D8CEA461DF7FA4F00D6DA7A /* SnapshotViewIOS.android.js */,
+				1D8CEA471DF7FA4F00D6DA7A /* SnapshotViewIOS.ios.js */,
+			);
+			name = RCTTest;
+			path = "../node_modules/react-native/Libraries/RCTTest";
+			sourceTree = "<group>";
+		};
+		1D8CEA341DF7FA4F00D6DA7A /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA351DF7FA4F00D6DA7A /* FBSnapshotTestCase.h */,
+				1D8CEA361DF7FA4F00D6DA7A /* FBSnapshotTestCase.m */,
+				1D8CEA371DF7FA4F00D6DA7A /* FBSnapshotTestController.h */,
+				1D8CEA381DF7FA4F00D6DA7A /* FBSnapshotTestController.m */,
+				1D8CEA391DF7FA4F00D6DA7A /* UIImage+Compare.h */,
+				1D8CEA3A1DF7FA4F00D6DA7A /* UIImage+Compare.m */,
+				1D8CEA3B1DF7FA4F00D6DA7A /* UIImage+Diff.h */,
+				1D8CEA3C1DF7FA4F00D6DA7A /* UIImage+Diff.m */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		1D8CEA401DF7FA4F00D6DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA7B1DF7FA5000D6DA7A /* libRCTTest.a */,
+				1D8CEA7D1DF7FA5000D6DA7A /* libRCTTest-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8CEA481DF7FA4F00D6DA7A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA491DF7FA4F00D6DA7A /* __tests__ */,
+				1D8CEA4B1DF7FA4F00D6DA7A /* fetch.js */,
+				1D8CEA4C1DF7FA4F00D6DA7A /* FormData.js */,
+				1D8CEA4D1DF7FA4F00D6DA7A /* NetInfo.js */,
+				1D8CEA4E1DF7FA4F00D6DA7A /* RCTDataRequestHandler.h */,
+				1D8CEA4F1DF7FA4F00D6DA7A /* RCTDataRequestHandler.m */,
+				1D8CEA501DF7FA4F00D6DA7A /* RCTFileRequestHandler.h */,
+				1D8CEA511DF7FA4F00D6DA7A /* RCTFileRequestHandler.m */,
+				1D8CEA521DF7FA4F00D6DA7A /* RCTHTTPRequestHandler.h */,
+				1D8CEA531DF7FA4F00D6DA7A /* RCTHTTPRequestHandler.mm */,
+				1D8CEA541DF7FA4F00D6DA7A /* RCTNetInfo.h */,
+				1D8CEA551DF7FA4F00D6DA7A /* RCTNetInfo.m */,
+				1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */,
+				1D8CEA591DF7FA4F00D6DA7A /* RCTNetworking.android.js */,
+				1D8CEA5A1DF7FA4F00D6DA7A /* RCTNetworking.h */,
+				1D8CEA5B1DF7FA4F00D6DA7A /* RCTNetworking.ios.js */,
+				1D8CEA5C1DF7FA4F00D6DA7A /* RCTNetworking.mm */,
+				1D8CEA5D1DF7FA4F00D6DA7A /* RCTNetworkTask.h */,
+				1D8CEA5E1DF7FA4F00D6DA7A /* RCTNetworkTask.m */,
+				1D8CEA5F1DF7FA4F00D6DA7A /* XHRInterceptor.js */,
+				1D8CEA601DF7FA4F00D6DA7A /* XMLHttpRequest.js */,
+			);
+			name = Network;
+			path = "../node_modules/react-native/Libraries/Network";
+			sourceTree = "<group>";
+		};
+		1D8CEA491DF7FA4F00D6DA7A /* __tests__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA4A1DF7FA4F00D6DA7A /* XMLHttpRequest-test.js */,
+			);
+			path = __tests__;
+			sourceTree = "<group>";
+		};
+		1D8CEA571DF7FA4F00D6DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA751DF7FA5000D6DA7A /* libRCTNetwork.a */,
+				1D8CEA771DF7FA5000D6DA7A /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8CEA611DF7FA4F00D6DA7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA621DF7FA4F00D6DA7A /* __mocks__ */,
+				1D8CEA641DF7FA4F00D6DA7A /* Devtools */,
+				1D8CEA6C1DF7FA4F00D6DA7A /* ErrorUtils.js */,
+				1D8CEA6D1DF7FA4F00D6DA7A /* ExceptionsManager.js */,
+				1D8CEA6E1DF7FA4F00D6DA7A /* InitializeCore.js */,
+				1D8CEA6F1DF7FA4F00D6DA7A /* Timers */,
+			);
+			name = Core;
+			path = "../node_modules/react-native/Libraries/Core";
+			sourceTree = "<group>";
+		};
+		1D8CEA621DF7FA4F00D6DA7A /* __mocks__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA631DF7FA4F00D6DA7A /* ErrorUtils.js */,
+			);
+			path = __mocks__;
+			sourceTree = "<group>";
+		};
+		1D8CEA641DF7FA4F00D6DA7A /* Devtools */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA651DF7FA4F00D6DA7A /* __tests__ */,
+				1D8CEA671DF7FA4F00D6DA7A /* getDevServer.js */,
+				1D8CEA681DF7FA4F00D6DA7A /* openFileInEditor.js */,
+				1D8CEA691DF7FA4F00D6DA7A /* parseErrorStack.js */,
+				1D8CEA6A1DF7FA4F00D6DA7A /* setupDevtools.js */,
+				1D8CEA6B1DF7FA4F00D6DA7A /* symbolicateStackTrace.js */,
+			);
+			path = Devtools;
+			sourceTree = "<group>";
+		};
+		1D8CEA651DF7FA4F00D6DA7A /* __tests__ */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA661DF7FA4F00D6DA7A /* parseErrorStack-test.js */,
+			);
+			path = __tests__;
+			sourceTree = "<group>";
+		};
+		1D8CEA6F1DF7FA4F00D6DA7A /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA701DF7FA4F00D6DA7A /* JSTimers.js */,
+				1D8CEA711DF7FA4F00D6DA7A /* JSTimersExecution.js */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		1D8CEAD31DF807D700D6DA7A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		1D8CEADE1DF808F100D6DA7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEAE31DF808F200D6DA7A /* libRCTText.a */,
+				1D8CEAE51DF808F200D6DA7A /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFE5D381DF6BA50003E0455 = {
+			isa = PBXGroup;
+			children = (
+				1DFE5D431DF6BA50003E0455 /* ClientRobot */,
+				1DFE5D5D1DF6BA50003E0455 /* ClientRobotTests */,
+				1DFE5D681DF6BA50003E0455 /* ClientRobotUITests */,
+				1DFE5D421DF6BA50003E0455 /* Products */,
+				20678B169C1D0CBF9BFFA776 /* Pods */,
+				5B0D4E012DD9BA6E61BE7843 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DFE5D421DF6BA50003E0455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE5D411DF6BA50003E0455 /* ClientRobot.app */,
+				1DFE5D5A1DF6BA50003E0455 /* ClientRobotTests.xctest */,
+				1DFE5D651DF6BA50003E0455 /* ClientRobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFE5D431DF6BA50003E0455 /* ClientRobot */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEAD31DF807D700D6DA7A /* Libraries */,
+				1DFE5D471DF6BA50003E0455 /* AppDelegate.h */,
+				1DFE5D481DF6BA50003E0455 /* AppDelegate.m */,
+				1DFE5D4A1DF6BA50003E0455 /* ViewController.h */,
+				1DFE5D4B1DF6BA50003E0455 /* ViewController.m */,
+				1DFE5D4D1DF6BA50003E0455 /* Main.storyboard */,
+				1DFE5D501DF6BA50003E0455 /* Assets.xcassets */,
+				1DFE5D521DF6BA50003E0455 /* LaunchScreen.storyboard */,
+				1DFE5D551DF6BA50003E0455 /* Info.plist */,
+				1DFE5D441DF6BA50003E0455 /* Supporting Files */,
+			);
+			path = ClientRobot;
+			sourceTree = "<group>";
+		};
+		1DFE5D441DF6BA50003E0455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE5D451DF6BA50003E0455 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DFE5D5D1DF6BA50003E0455 /* ClientRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE5D5E1DF6BA50003E0455 /* ClientRobotTests.m */,
+				1DFE5D601DF6BA50003E0455 /* Info.plist */,
+			);
+			path = ClientRobotTests;
+			sourceTree = "<group>";
+		};
+		1DFE5D681DF6BA50003E0455 /* ClientRobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE5D691DF6BA50003E0455 /* ClientRobotUITests.m */,
+				1DFE5D6B1DF6BA50003E0455 /* Info.plist */,
+			);
+			path = ClientRobotUITests;
+			sourceTree = "<group>";
+		};
+		20678B169C1D0CBF9BFFA776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D3BF93576CAAEA461C4CA /* Pods-ClientRobot.debug.xcconfig */,
+				967E1D4E62083AB0FDD9C72A /* Pods-ClientRobot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B0D4E012DD9BA6E61BE7843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D8CEA201DF7FA4F00D6DA7A /* WebSocket */,
+				1D8CEA331DF7FA4F00D6DA7A /* RCTTest */,
+				1D8CEA481DF7FA4F00D6DA7A /* Network */,
+				1D8CEA611DF7FA4F00D6DA7A /* Core */,
+				1D8CEA011DF7F9D700D6DA7A /* Network */,
+				1D8CE9F01DF7F9CB00D6DA7A /* Core */,
+				1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */,
+				356C022844D7212E7978B82B /* libPods-ClientRobot.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DFE5D401DF6BA50003E0455 /* ClientRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE5D6E1DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobot" */;
+			buildPhases = (
+				1A978BE4EA2DCA8B59870ED4 /* [CP] Check Pods Manifest.lock */,
+				1DFE5D3D1DF6BA50003E0455 /* Sources */,
+				1DFE5D3E1DF6BA50003E0455 /* Frameworks */,
+				1DFE5D3F1DF6BA50003E0455 /* Resources */,
+				46F2B733C767697AF91F3B70 /* [CP] Embed Pods Frameworks */,
+				28B75012D810763B4AF5D4D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClientRobot;
+			productName = ClientRobot;
+			productReference = 1DFE5D411DF6BA50003E0455 /* ClientRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DFE5D591DF6BA50003E0455 /* ClientRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE5D711DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobotTests" */;
+			buildPhases = (
+				1DFE5D561DF6BA50003E0455 /* Sources */,
+				1DFE5D571DF6BA50003E0455 /* Frameworks */,
+				1DFE5D581DF6BA50003E0455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DFE5D5C1DF6BA50003E0455 /* PBXTargetDependency */,
+			);
+			name = ClientRobotTests;
+			productName = ClientRobotTests;
+			productReference = 1DFE5D5A1DF6BA50003E0455 /* ClientRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DFE5D641DF6BA50003E0455 /* ClientRobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFE5D741DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobotUITests" */;
+			buildPhases = (
+				1DFE5D611DF6BA50003E0455 /* Sources */,
+				1DFE5D621DF6BA50003E0455 /* Frameworks */,
+				1DFE5D631DF6BA50003E0455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DFE5D671DF6BA50003E0455 /* PBXTargetDependency */,
+			);
+			name = ClientRobotUITests;
+			productName = ClientRobotUITests;
+			productReference = 1DFE5D651DF6BA50003E0455 /* ClientRobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DFE5D391DF6BA50003E0455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = hanarobot;
+				TargetAttributes = {
+					1DFE5D401DF6BA50003E0455 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1DFE5D591DF6BA50003E0455 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DFE5D401DF6BA50003E0455;
+					};
+					1DFE5D641DF6BA50003E0455 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DFE5D401DF6BA50003E0455;
+					};
+				};
+			};
+			buildConfigurationList = 1DFE5D3C1DF6BA50003E0455 /* Build configuration list for PBXProject "ClientRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DFE5D381DF6BA50003E0455;
+			productRefGroup = 1DFE5D421DF6BA50003E0455 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1D8CEA571DF7FA4F00D6DA7A /* Products */;
+					ProjectRef = 1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D8CEA101DF7F9D700D6DA7A /* Products */;
+					ProjectRef = 1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D8CEA401DF7FA4F00D6DA7A /* Products */;
+					ProjectRef = 1D8CEA3F1DF7FA4F00D6DA7A /* RCTTest.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D8CEADE1DF808F100D6DA7A /* Products */;
+					ProjectRef = 1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D8CEA281DF7FA4F00D6DA7A /* Products */;
+					ProjectRef = 1D8CEA271DF7FA4F00D6DA7A /* RCTWebSocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1DFE5D401DF6BA50003E0455 /* ClientRobot */,
+				1DFE5D591DF6BA50003E0455 /* ClientRobotTests */,
+				1DFE5D641DF6BA50003E0455 /* ClientRobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1D8CEA1D1DF7F9D700D6DA7A /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 1D8CEA1C1DF7F9D700D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA1F1DF7F9D700D6DA7A /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = 1D8CEA1E1DF7F9D700D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA751DF7FA5000D6DA7A /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 1D8CEA741DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA771DF7FA5000D6DA7A /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = 1D8CEA761DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA7B1DF7FA5000D6DA7A /* libRCTTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTTest.a;
+			remoteRef = 1D8CEA7A1DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA7D1DF7FA5000D6DA7A /* libRCTTest-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTTest-tvOS.a";
+			remoteRef = 1D8CEA7C1DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA811DF7FA5000D6DA7A /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 1D8CEA801DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEA831DF7FA5000D6DA7A /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = 1D8CEA821DF7FA5000D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEAE31DF808F200D6DA7A /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 1D8CEAE21DF808F200D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D8CEAE51DF808F200D6DA7A /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = 1D8CEAE41DF808F200D6DA7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFE5D3F1DF6BA50003E0455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE5D541DF6BA50003E0455 /* LaunchScreen.storyboard in Resources */,
+				1DFE5D511DF6BA50003E0455 /* Assets.xcassets in Resources */,
+				1DFE5D4F1DF6BA50003E0455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D581DF6BA50003E0455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D631DF6BA50003E0455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A978BE4EA2DCA8B59870ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28B75012D810763B4AF5D4D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46F2B733C767697AF91F3B70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DFE5D3D1DF6BA50003E0455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE5D4C1DF6BA50003E0455 /* ViewController.m in Sources */,
+				1DFE5D491DF6BA50003E0455 /* AppDelegate.m in Sources */,
+				1DFE5D461DF6BA50003E0455 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D561DF6BA50003E0455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE5D5F1DF6BA50003E0455 /* ClientRobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DFE5D611DF6BA50003E0455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFE5D6A1DF6BA50003E0455 /* ClientRobotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DFE5D5C1DF6BA50003E0455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFE5D401DF6BA50003E0455 /* ClientRobot */;
+			targetProxy = 1DFE5D5B1DF6BA50003E0455 /* PBXContainerItemProxy */;
+		};
+		1DFE5D671DF6BA50003E0455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DFE5D401DF6BA50003E0455 /* ClientRobot */;
+			targetProxy = 1DFE5D661DF6BA50003E0455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DFE5D4D1DF6BA50003E0455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFE5D4E1DF6BA50003E0455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DFE5D521DF6BA50003E0455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DFE5D531DF6BA50003E0455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DFE5D6C1DF6BA51003E0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DFE5D6D1DF6BA51003E0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DFE5D6F1DF6BA51003E0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1D3BF93576CAAEA461C4CA /* Pods-ClientRobot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"/**",
+				);
+				INFOPLIST_FILE = ClientRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-l\"stdc++\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DFE5D701DF6BA51003E0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967E1D4E62083AB0FDD9C72A /* Pods-ClientRobot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"/**",
+				);
+				INFOPLIST_FILE = ClientRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-l\"stdc++\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DFE5D721DF6BA51003E0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClientRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRobot.app/ClientRobot";
+			};
+			name = Debug;
+		};
+		1DFE5D731DF6BA51003E0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClientRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRobot.app/ClientRobot";
+			};
+			name = Release;
+		};
+		1DFE5D751DF6BA51003E0455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClientRobotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClientRobot;
+			};
+			name = Debug;
+		};
+		1DFE5D761DF6BA51003E0455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClientRobotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClientRobot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFE5D3C1DF6BA50003E0455 /* Build configuration list for PBXProject "ClientRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE5D6C1DF6BA51003E0455 /* Debug */,
+				1DFE5D6D1DF6BA51003E0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE5D6E1DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE5D6F1DF6BA51003E0455 /* Debug */,
+				1DFE5D701DF6BA51003E0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE5D711DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE5D721DF6BA51003E0455 /* Debug */,
+				1DFE5D731DF6BA51003E0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFE5D741DF6BA51003E0455 /* Build configuration list for PBXNativeTarget "ClientRobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFE5D751DF6BA51003E0455 /* Debug */,
+				1DFE5D761DF6BA51003E0455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DFE5D391DF6BA50003E0455 /* Project object */;
+}
