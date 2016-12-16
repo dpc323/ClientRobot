@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RCTRootView.h"
 #import "RCTBundleURLProvider.h"
+#import "rc"
 
 @interface ViewController ()
 
@@ -50,7 +51,15 @@
                ]
        }
                           launchOptions    : nil];
+    
+#if DEBUG
+    // 原来的jsCodeLocation
+    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
+#else
+    jsCodeLocation=[RCTHotUpdate bundleURL];
+#endif
     UIViewController *vc = [[UIViewController alloc] init];
+    
     vc.view = rootView;
     [self presentViewController:vc animated:YES completion:nil];
 }

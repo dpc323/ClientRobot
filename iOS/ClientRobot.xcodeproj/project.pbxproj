@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D59BB561E038DFE0019C50C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D59BB551E038DFE0019C50C /* libz.tbd */; };
+		1D59BB581E038E180019C50C /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D59BB571E038E180019C50C /* libbz2.1.0.tbd */; };
 		1D8CEAA81DF7FC8300D6DA7A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */; };
 		1D8CEAE61DF8094400D6DA7A /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAE31DF808F200D6DA7A /* libRCTText.a */; };
 		1D8CEAE71DF8096F00D6DA7A /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEA811DF7FA5000D6DA7A /* libRCTWebSocket.a */; };
@@ -19,10 +21,25 @@
 		1DFE5D541DF6BA50003E0455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFE5D521DF6BA50003E0455 /* LaunchScreen.storyboard */; };
 		1DFE5D5F1DF6BA50003E0455 /* ClientRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D5E1DF6BA50003E0455 /* ClientRobotTests.m */; };
 		1DFE5D6A1DF6BA50003E0455 /* ClientRobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE5D691DF6BA50003E0455 /* ClientRobotUITests.m */; };
+		655EA4CF25964956BB296335 /* libRCTHotUpdate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0561BA89BC46AEBE6132E1 /* libRCTHotUpdate.a */; };
 		A2FE3479A1681E89272265E0 /* libPods-ClientRobot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356C022844D7212E7978B82B /* libPods-ClientRobot.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D59BB331E038C8F0019C50C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91C5EFFF1C76ECA90037E727;
+			remoteInfo = RCTHotUpdate;
+		};
+		1D59BB481E038CE70019C50C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91C5EFFF1C76ECA90037E727;
+			remoteInfo = RCTHotUpdate;
+		};
 		1D8CEA1C1DF7F9D700D6DA7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D8CEA0F1DF7F9D700D6DA7A /* RCTNetwork.xcodeproj */;
@@ -110,6 +127,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0561BA89BC46AEBE6132E1 /* libRCTHotUpdate.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTHotUpdate.a; sourceTree = "<group>"; };
+		1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTHotUpdate.xcodeproj; path = "../../node_modules/react-native-update/ios/RCTHotUpdate.xcodeproj"; sourceTree = "<group>"; };
+		1D59BB551E038DFE0019C50C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1D59BB571E038E180019C50C /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
 		1D8CE9F21DF7F9CB00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
 		1D8CE9F51DF7F9CB00D6DA7A /* parseErrorStack-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "parseErrorStack-test.js"; sourceTree = "<group>"; };
@@ -226,6 +247,7 @@
 		1DFE5D691DF6BA50003E0455 /* ClientRobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientRobotUITests.m; sourceTree = "<group>"; };
 		1DFE5D6B1DF6BA50003E0455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356C022844D7212E7978B82B /* libPods-ClientRobot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClientRobot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTHotUpdate.xcodeproj; path = "../node_modules/react-native-update/ios/RCTHotUpdate.xcodeproj"; sourceTree = "<group>"; };
 		967E1D4E62083AB0FDD9C72A /* Pods-ClientRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientRobot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot.release.xcconfig"; sourceTree = "<group>"; };
 		BA1D3BF93576CAAEA461C4CA /* Pods-ClientRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientRobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClientRobot/Pods-ClientRobot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -235,11 +257,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D59BB581E038E180019C50C /* libbz2.1.0.tbd in Frameworks */,
+				1D59BB561E038DFE0019C50C /* libz.tbd in Frameworks */,
 				1D8CEAE81DF8098300D6DA7A /* libRCTNetwork.a in Frameworks */,
 				1D8CEAE71DF8096F00D6DA7A /* libRCTWebSocket.a in Frameworks */,
 				1D8CEAE61DF8094400D6DA7A /* libRCTText.a in Frameworks */,
 				1D8CEAA81DF7FC8300D6DA7A /* libReact.a in Frameworks */,
 				A2FE3479A1681E89272265E0 /* libPods-ClientRobot.a in Frameworks */,
+				655EA4CF25964956BB296335 /* libRCTHotUpdate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D59BB301E038C8E0019C50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D59BB341E038C8F0019C50C /* libRCTHotUpdate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D59BB451E038CE70019C50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D59BB491E038CE70019C50C /* libRCTHotUpdate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1D8CE9F01DF7F9CB00D6DA7A /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,6 +589,7 @@
 		1D8CEAD31DF807D700D6DA7A /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */,
 				1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */,
 			);
 			name = Libraries;
@@ -571,6 +613,7 @@
 				1DFE5D421DF6BA50003E0455 /* Products */,
 				20678B169C1D0CBF9BFFA776 /* Pods */,
 				5B0D4E012DD9BA6E61BE7843 /* Frameworks */,
+				AEBF7DD2D01A4BF3B5E93191 /* Libraries */,
 			);
 			sourceTree = "<group>";
 		};
@@ -639,6 +682,8 @@
 		5B0D4E012DD9BA6E61BE7843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D59BB571E038E180019C50C /* libbz2.1.0.tbd */,
+				1D59BB551E038DFE0019C50C /* libz.tbd */,
 				1D8CEA201DF7FA4F00D6DA7A /* WebSocket */,
 				1D8CEA331DF7FA4F00D6DA7A /* RCTTest */,
 				1D8CEA481DF7FA4F00D6DA7A /* Network */,
@@ -649,6 +694,14 @@
 				356C022844D7212E7978B82B /* libPods-ClientRobot.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEBF7DD2D01A4BF3B5E93191 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -716,7 +769,7 @@
 		1DFE5D391DF6BA50003E0455 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 810;
 				ORGANIZATIONNAME = hanarobot;
 				TargetAttributes = {
 					1DFE5D401DF6BA50003E0455 = {
@@ -748,6 +801,14 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 1D59BB451E038CE70019C50C /* Products */;
+					ProjectRef = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
+				},
+				{
+					ProductGroup = 1D59BB301E038C8E0019C50C /* Products */;
+					ProjectRef = 1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */;
+				},
+				{
 					ProductGroup = 1D8CEA571DF7FA4F00D6DA7A /* Products */;
 					ProjectRef = 1D8CEA561DF7FA4F00D6DA7A /* RCTNetwork.xcodeproj */;
 				},
@@ -778,6 +839,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1D59BB341E038C8F0019C50C /* libRCTHotUpdate.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTHotUpdate.a;
+			remoteRef = 1D59BB331E038C8F0019C50C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D59BB491E038CE70019C50C /* libRCTHotUpdate.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTHotUpdate.a;
+			remoteRef = 1D59BB481E038CE70019C50C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		1D8CEA1D1DF7F9D700D6DA7A /* libRCTNetwork.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1087,6 +1162,10 @@
 				);
 				INFOPLIST_FILE = ClientRobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1113,6 +1192,10 @@
 				);
 				INFOPLIST_FILE = ClientRobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1133,6 +1216,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClientRobotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRobot.app/ClientRobot";
@@ -1145,6 +1232,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClientRobotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRobot.app/ClientRobot";
@@ -1156,6 +1247,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = ClientRobotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ClientRobot;
@@ -1167,6 +1262,10 @@
 			buildSettings = {
 				INFOPLIST_FILE = ClientRobotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobotUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ClientRobot;
