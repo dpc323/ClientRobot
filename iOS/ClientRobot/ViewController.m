@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "RCTRootView.h"
 #import "RCTBundleURLProvider.h"
-#import "rc"
+#import "RCTHotUpdate.h"
 
 @interface ViewController ()
 

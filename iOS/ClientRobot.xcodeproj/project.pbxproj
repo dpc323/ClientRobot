@@ -26,16 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D59BB331E038C8F0019C50C /* PBXContainerItemProxy */ = {
+		1D59BB481E038CE70019C50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */;
+			containerPortal = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 91C5EFFF1C76ECA90037E727;
 			remoteInfo = RCTHotUpdate;
 		};
-		1D59BB481E038CE70019C50C /* PBXContainerItemProxy */ = {
+		1D59BB631E0394970019C50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
+			containerPortal = 1D59BB5F1E0394970019C50C /* RCTHotUpdate.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 91C5EFFF1C76ECA90037E727;
 			remoteInfo = RCTHotUpdate;
@@ -128,9 +128,9 @@
 
 /* Begin PBXFileReference section */
 		0E0561BA89BC46AEBE6132E1 /* libRCTHotUpdate.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTHotUpdate.a; sourceTree = "<group>"; };
-		1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTHotUpdate.xcodeproj; path = "../../node_modules/react-native-update/ios/RCTHotUpdate.xcodeproj"; sourceTree = "<group>"; };
 		1D59BB551E038DFE0019C50C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1D59BB571E038E180019C50C /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		1D59BB5F1E0394970019C50C /* RCTHotUpdate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTHotUpdate.xcodeproj; path = "../../node_modules/react-native-update/ios/RCTHotUpdate.xcodeproj"; sourceTree = "<group>"; };
 		1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
 		1D8CE9F21DF7F9CB00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
 		1D8CE9F51DF7F9CB00D6DA7A /* parseErrorStack-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "parseErrorStack-test.js"; sourceTree = "<group>"; };
@@ -285,18 +285,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D59BB301E038C8E0019C50C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1D59BB341E038C8F0019C50C /* libRCTHotUpdate.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1D59BB451E038CE70019C50C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1D59BB491E038CE70019C50C /* libRCTHotUpdate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D59BB601E0394970019C50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D59BB641E0394970019C50C /* libRCTHotUpdate.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -589,7 +589,7 @@
 		1D8CEAD31DF807D700D6DA7A /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */,
+				1D59BB5F1E0394970019C50C /* RCTHotUpdate.xcodeproj */,
 				1D8CEADD1DF808F100D6DA7A /* RCTText.xcodeproj */,
 			);
 			name = Libraries;
@@ -801,12 +801,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 1D59BB451E038CE70019C50C /* Products */;
-					ProjectRef = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
+					ProductGroup = 1D59BB601E0394970019C50C /* Products */;
+					ProjectRef = 1D59BB5F1E0394970019C50C /* RCTHotUpdate.xcodeproj */;
 				},
 				{
-					ProductGroup = 1D59BB301E038C8E0019C50C /* Products */;
-					ProjectRef = 1D59BB2F1E038C8E0019C50C /* RCTHotUpdate.xcodeproj */;
+					ProductGroup = 1D59BB451E038CE70019C50C /* Products */;
+					ProjectRef = 8D0FD1122FE849A0944C542A /* RCTHotUpdate.xcodeproj */;
 				},
 				{
 					ProductGroup = 1D8CEA571DF7FA4F00D6DA7A /* Products */;
@@ -839,18 +839,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1D59BB341E038C8F0019C50C /* libRCTHotUpdate.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTHotUpdate.a;
-			remoteRef = 1D59BB331E038C8F0019C50C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		1D59BB491E038CE70019C50C /* libRCTHotUpdate.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRCTHotUpdate.a;
 			remoteRef = 1D59BB481E038CE70019C50C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1D59BB641E0394970019C50C /* libRCTHotUpdate.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTHotUpdate.a;
+			remoteRef = 1D59BB631E0394970019C50C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		1D8CEA1D1DF7F9D700D6DA7A /* libRCTNetwork.a */ = {
