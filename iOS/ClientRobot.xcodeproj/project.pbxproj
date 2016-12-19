@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D59BB561E038DFE0019C50C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D59BB551E038DFE0019C50C /* libz.tbd */; };
 		1D59BB581E038E180019C50C /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D59BB571E038E180019C50C /* libbz2.1.0.tbd */; };
+		1D73CDDB1E051468006C729F /* RCTHotUpdate.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D73CDDA1E051468006C729F /* RCTHotUpdate.h */; };
 		1D8CEAA81DF7FC8300D6DA7A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */; };
 		1D8CEAE61DF8094400D6DA7A /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAE31DF808F200D6DA7A /* libRCTText.a */; };
 		1D8CEAE71DF8096F00D6DA7A /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEA811DF7FA5000D6DA7A /* libRCTWebSocket.a */; };
@@ -131,6 +132,7 @@
 		1D59BB551E038DFE0019C50C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1D59BB571E038E180019C50C /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		1D59BB5F1E0394970019C50C /* RCTHotUpdate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTHotUpdate.xcodeproj; path = "../../node_modules/react-native-update/ios/RCTHotUpdate.xcodeproj"; sourceTree = "<group>"; };
+		1D73CDDA1E051468006C729F /* RCTHotUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTHotUpdate.h; path = "../../node_modules/react-native-update/ios/RCTHotUpdate/RCTHotUpdate.h"; sourceTree = "<group>"; };
 		1D8CE9ED1DF7F4B500D6DA7A /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
 		1D8CE9F21DF7F9CB00D6DA7A /* ErrorUtils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ErrorUtils.js; sourceTree = "<group>"; };
 		1D8CE9F51DF7F9CB00D6DA7A /* parseErrorStack-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "parseErrorStack-test.js"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D73CDDB1E051468006C729F /* RCTHotUpdate.h in Frameworks */,
 				1D59BB581E038E180019C50C /* libbz2.1.0.tbd in Frameworks */,
 				1D59BB561E038DFE0019C50C /* libz.tbd in Frameworks */,
 				1D8CEAE81DF8098300D6DA7A /* libRCTNetwork.a in Frameworks */,
@@ -682,6 +685,7 @@
 		5B0D4E012DD9BA6E61BE7843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D73CDDA1E051468006C729F /* RCTHotUpdate.h */,
 				1D59BB571E038E180019C50C /* libbz2.1.0.tbd */,
 				1D59BB551E038DFE0019C50C /* libz.tbd */,
 				1D8CEA201DF7FA4F00D6DA7A /* WebSocket */,
@@ -1177,6 +1181,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a01e45a-c2ac-412d-aaa1-fb6fc91fcf6b";
 			};
 			name = Debug;
 		};
@@ -1207,6 +1212,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HANA.ClientRobot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a01e45a-c2ac-412d-aaa1-fb6fc91fcf6b";
 			};
 			name = Release;
 		};
@@ -1214,7 +1220,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ClientRobotTests/Info.plist;
+				INFOPLIST_FILE = ClientRobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1230,7 +1236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ClientRobotTests/Info.plist;
+				INFOPLIST_FILE = ClientRobot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,7 +9,8 @@ target 'ClientRobot' do
     'RCTNetwork',
     'RCTLinkingIOS',
     'RCTWebSocket', # needed for debugging
-    'RCTHotUpdate’,
+
     # Add any other subspecs you want to use in your project
   ]
+  
 end

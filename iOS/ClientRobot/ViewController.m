@@ -23,7 +23,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -33,7 +32,7 @@
     NSLog(@"High Score Button Pressed");
     //NSURL *jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
     NSURL *jsCodeLocation = [NSURL
-                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
+                             URLWithString:@"http://192.168.1.112:8081/index.ios.bundle?platform=ios"];
     RCTRootView *rootView =
     [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
                          moduleName        : @"ClientRobot"
@@ -52,12 +51,7 @@
        }
                           launchOptions    : nil];
     
-#if DEBUG
-    // 原来的jsCodeLocation
-    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
-#else
-    jsCodeLocation=[RCTHotUpdate bundleURL];
-#endif
+
     UIViewController *vc = [[UIViewController alloc] init];
     
     vc.view = rootView;
